@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#087443">
+<title>Etykieta 2.0 — Jogurt naturalny</title>
+<style>
+:root{--green:#087443;--green2:#198754;--mint:#eaf6ee;--ink:#123b3d;--muted:#5d7474;--line:#dcebe3;--bg:#f7faf8;--white:#fff;--red:#a52d2d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.5}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav{max-width:1120px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.35rem;color:var(--green)}.leaf{font-size:2rem}.brand small{display:block;font-size:.8rem;font-weight:500;color:var(--muted)}
+.wrap{max-width:1120px;margin:auto;padding:24px 22px 44px}
+.hero{display:grid;grid-template-columns:220px 1fr 245px;gap:26px;align-items:center;margin:8px 0 26px}
+.product-photo{height:230px;border-radius:18px;background:linear-gradient(145deg,#e7ece9,#fff);display:grid;place-items:center;overflow:hidden}
+.cup{width:135px;height:145px;background:linear-gradient(90deg,#e9e9e4,#fff 35%,#f4f4f0 70%,#deded9);border-radius:12px 12px 30px 30px;box-shadow:0 12px 24px #173c3b18;position:relative;border-top:8px solid #cfd7d1}
+.cup:before{content:"";position:absolute;top:-13px;left:-7px;width:149px;height:18px;background:#fdfdfb;border:2px solid #dce4dd;border-radius:50%}
+.cup:after{content:"JOGURT\A NATURALNY";white-space:pre;position:absolute;top:44px;left:0;right:0;text-align:center;font-weight:800;font-size:13px;line-height:1.5;color:#27754a}
+.hero h1{font-size:clamp(1.8rem,4vw,2.55rem);line-height:1.1;margin:0 0 8px}.sub{font-size:1.2rem;margin-bottom:16px}.pill{display:inline-block;border-radius:999px;padding:6px 13px;background:#e5f4e8;color:var(--green);font-weight:700;font-size:.86rem}
+.meta{display:grid;gap:8px;margin-top:17px}.meta div{display:flex;gap:10px;align-items:center}.callout{background:var(--mint);padding:22px;border-radius:16px}.callout strong{font-size:1.12rem;display:block;margin-bottom:8px}
+.tabs{display:flex;gap:4px;overflow:auto;border-bottom:1px solid var(--line);margin-bottom:22px;background:#fff;border-radius:12px 12px 0 0;padding:5px}
+.tabs button{border:0;background:transparent;color:var(--ink);font:inherit;padding:12px 14px;cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}.tabs button.active{color:var(--green);border-bottom-color:var(--green);font-weight:750}
+.panel{display:none}.panel.active{display:block}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:20px;box-shadow:0 4px 14px #173c3b06}.card h2{font-size:1.18rem;margin:0 0 14px;display:flex;align-items:center;gap:10px}.ico{width:38px;height:38px;border-radius:50%;background:#e2f2e7;display:grid;place-items:center;font-size:1.2rem;flex-shrink:0}
+table{width:100%;border-collapse:collapse;font-size:.93rem}td{padding:9px 7px;border-bottom:1px solid var(--line)}td:last-child{text-align:right;font-weight:650}tr:last-child td{border-bottom:0}
+.notice{background:#fff0ef;color:var(--red);border-radius:12px;padding:14px;margin-top:14px}.soft{background:var(--mint);padding:14px;border-radius:12px;margin-top:14px}.muted{color:var(--muted);font-size:.9rem}.data-row{display:flex;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}.data-row:last-child{border:0}.data-row .symbol{font-size:1.5rem}.data-row strong{display:block}.co2{font-size:2rem;font-weight:800;color:var(--green)}.bar{height:9px;border-radius:20px;background:#e5eee8;overflow:hidden;margin:8px 0 15px}.bar span{display:block;height:100%;background:var(--green);width:64%}
+footer{background:#eaf5ed;color:#345b4d;padding:20px;text-align:center;font-size:.9rem}
+.disclaimer{font-size:.84rem;color:var(--muted);margin-top:18px}
+@media(max-width:800px){.hero{grid-template-columns:145px 1fr;gap:16px}.product-photo{height:180px}.cup{transform:scale(.8)}.callout{grid-column:1/-1}.grid{grid-template-columns:1fr}.wrap{padding:18px 14px 30px}.nav{padding:13px 15px}}
+@media(max-width:430px){.hero{grid-template-columns:1fr}.product-photo{height:180px}.callout{grid-column:auto}.meta{font-size:.92rem}.tabs button{padding:10px 11px;font-size:.9rem}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand"><span class="leaf">◢</span><div>Etykieta 2.0<small>Więcej niż jedna etykieta</small></div></div><span aria-label="Język polski">🌐 &nbsp; PL</span></div></header>
+<main class="wrap">
+<section class="hero">
+<div class="product-photo" aria-label="Ilustracja opakowania jogurtu"><div class="cup"></div></div>
+<div><h1>Jogurt naturalny</h1><div class="sub">2% tłuszczu</div><span class="pill">Produkt mleczny · przykład</span>
+<div class="meta"><div>🏭 <span>Producent: Mleczarnia Natura (przykład)</span></div><div>⚖️ <span>Pojemność: 150 g</span></div><div>▦ <span>Kod produktu: DEMO-150</span></div></div></div>
+<aside class="callout"><strong>🌿 Świadomy wybór ma znaczenie!</strong>Poznaj pełną historię produktu — od surowców po informacje żywieniowe i wpływ na środowisko.</aside>
+</section>
+<nav class="tabs" aria-label="Sekcje informacji o produkcie">
+<button class="active" data-tab="summary">⌂ Podsumowanie</button><button data-tab="ingredients">☷ Skład i alergeny</button><button data-tab="nutrition">♜ Wartości odżywcze</button><button data-tab="origin">⌖ Pochodzenie</button><button data-tab="carbon">♧ Ślad węglowy</button><button data-tab="additives">⚗ Dodatki</button>
+</nav>
+<section id="summary" class="panel active">
+<div class="grid">
+<article class="card"><h2><span class="ico">♙</span>Wartości odżywcze</h2><p class="muted">Poglądowe dane na 100 g produktu</p><table><tr><td>Wartość energetyczna</td><td>245 kJ / 58 kcal</td></tr><tr><td>Tłuszcz</td><td>2,0 g</td></tr><tr><td>w tym kwasy nasycone</td><td>1,3 g</td></tr><tr><td>Węglowodany</td><td>4,7 g</td></tr><tr><td>w tym cukry</td><td>4,7 g</td></tr><tr><td>Białko</td><td>3,6 g</td></tr><tr><td>Sól</td><td>0,1 g</td></tr></table><p class="disclaimer">Wartości wyłącznie demonstracyjne — w realnym produkcie należy podać dane producenta.</p></article>
+<article class="card"><h2><span class="ico">▤</span>Skład produktu</h2><p>Mleko pasteryzowane, żywe kultury bakterii jogurtowych <em>(przykładowy skład)</em>.</p><div class="notice"><strong>⚠ Alergen:</strong><br>Zawiera mleko.</div><div class="soft"><strong>ℹ Ważne</strong><br>Informacje o alergenach na tej stronie uzupełniają, a nie zastępują oznakowanie na opakowaniu.</div></article>
+<article class="card"><h2><span class="ico">⌖</span>Pochodzenie surowców</h2><div class="data-row"><span class="symbol">🐄</span><div><strong>Mleko</strong><span class="muted">Kraj pochodzenia: do potwierdzenia przez producenta</span></div></div><div class="data-row"><span class="symbol">🏭</span><div><strong>Miejsce produkcji</strong><span class="muted">Do uzupełnienia na podstawie dokumentacji</span></div></div><div class="soft">Dane o pochodzeniu należy potwierdzić dokumentacją dostawców.</div></article>
+<article class="card"><h2><span class="ico">♧</span>Ślad węglowy</h2><div class="co2">Do uzupełnienia</div><p>kg CO₂e / kg produktu</p><div class="bar"><span style="width:0"></span></div><p class="muted">Nie podano wartości, ponieważ wymaga ona wiarygodnego źródła i określonej metodologii obliczeń.</p><div class="soft">W karcie docelowej można opisać emisje z produkcji surowców, przetwarzania, transportu i opakowania.</div></article>
+</div>
+</section>
+<section id="ingredients" class="panel"><div class="card"><h2><span class="ico">☷</span>Skład i alergeny</h2><h3>Składniki</h3><p>Mleko pasteryzowane, żywe kultury bakterii jogurtowych <em>(przykład demonstracyjny)</em>.</p><div class="notice"><strong>ALERGEN: MLEKO</strong><br>Osoby z alergią na białka mleka powinny zwracać uwagę na oznakowanie produktu.</div><p class="muted">Ostateczna treść musi odpowiadać rzeczywistemu składowi i oznakowaniu konkretnego produktu.</p></div></section>
+<section id="nutrition" class="panel"><div class="card"><h2><span class="ico">♜</span>Wartości odżywcze</h2><p class="muted">Przykładowe dane na 100 g. Nie są deklaracją żadnej konkretnej marki.</p><table><tr><td>Energia</td><td>245 kJ / 58 kcal</td></tr><tr><td>Tłuszcz</td><td>2,0 g</td></tr><tr><td>Kwasy tłuszczowe nasycone</td><td>1,3 g</td></tr><tr><td>Węglowodany</td><td>4,7 g</td></tr><tr><td>Cukry</td><td>4,7 g</td></tr><tr><td>Białko</td><td>3,6 g</td></tr><tr><td>Sól</td><td>0,1 g</td></tr></table><div class="soft">Opcjonalnie można dodać przeliczenie na porcję 150 g.</div></div></section>
+<section id="origin" class="panel"><div class="card"><h2><span class="ico">⌖</span>Pochodzenie i identyfikowalność</h2><div class="data-row"><span class="symbol">🌾</span><div><strong>Pochodzenie mleka</strong><span class="muted">Informacja do potwierdzenia przez producenta</span></div></div><div class="data-row"><span class="symbol">🏭</span><div><strong>Zakład produkcyjny</strong><span class="muted">Nazwa i adres zakładu — do uzupełnienia</span></div></div><div class="data-row"><span class="symbol">📄</span><div><strong>Źródła danych</strong><span class="muted">Dokumentacja dostawców i producenta</span></div></div></div></section>
+<section id="carbon" class="panel"><div class="card"><h2><span class="ico">♧</span>Ślad węglowy</h2><p>Ślad węglowy powinien być podawany jako emisja gazów cieplarnianych w przeliczeniu na ekwiwalent CO₂ (CO₂e).</p><div class="co2">Brak zweryfikowanych danych</div><p>Docelowo karta powinna zawierać wynik, jednostkę, granice analizy, źródło danych oraz metodę obliczeń.</p><div class="soft"><strong>Dlaczego to ważne?</strong><br>Wyniki można porównywać rzetelnie tylko wtedy, gdy obliczono je według porównywalnych zasad.</div></div></section>
+<section id="additives" class="panel"><div class="card"><h2><span class="ico">⚗</span>Dodatki do żywności</h2><p>W tym demonstracyjnym przykładzie nie wskazano dodatków technologicznych.</p><p class="muted">W rzeczywistej karcie należy pokazać dodatki zgodnie z wykazem składników, podając ich nazwę lub numer E i funkcję technologiczną, jeśli dotyczy.</p></div></section>
+<p class="disclaimer">Prototyp edukacyjny „Etykieta 2.0”. Dane przykładowe służą wyłącznie demonstracji układu strony i nie opisują konkretnego produktu dostępnego w sprzedaży.</p>
+</main>
+<footer>🌿 <strong>Etykieta 2.0</strong> — więcej informacji, lepsze decyzje. <br>Prototyp przygotowany na potrzeby prezentacji projektu.</footer>
+<script>
+document.querySelectorAll('[data-tab]').forEach(btn=>btn.addEventListener('click',()=>{
+ document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b===btn));
+ document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id===btn.dataset.tab));
+}));
+</script>
+</body></html>
